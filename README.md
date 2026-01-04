@@ -41,6 +41,11 @@ Texture Quality affects visual detail and VRAM usage.
 
 📌 **Recommendation:**  
 If you don’t have a high-end GPU, **High** is the best balance between visuals and performance. in this Game.
+
+
+---
+
+
 ### Anisotropic Filtering
 Anisotropic Filtering improves texture sharpness, especially on surfaces viewed at an angle.
 
@@ -151,4 +156,137 @@ Red Dead Redemption 2 has some of the best water visuals in any game, but this s
 
 📌 Recommendation:  
 Use **Medium** for good visuals and stable performance.
+
+
+---
+
+
+### Volumetrics Quality
+Volumetrics Quality controls how light interacts with the air, including fog, mist, smoke, god rays, dust, and light beams.  
+
+- From Low to High, FPS drops about 3 FPS, but the game looks like a masterpiece.  
+- **Ultra** is very demanding and not recommended.
+
+---
+
+### Particle Quality
+Particle Quality controls the detail and number of particle effects such as explosions, fire, smoke, sparks, bullet impacts, dust, rain, snow, and ash.  
+
+- In RDR2, FPS is mostly unaffected.  
+📌 Recommendation: **High** for best visuals.
+
+---
+
+### Tessellation Quality
+Tessellation Quality controls the geometric detail of surfaces by dynamically adding extra polygons.  
+
+- Makes flat surfaces appear truly 3D.  
+- Performance impact is minimal.  
+📌 Recommendation: **High**.
+
+---
+
+### NVIDIA DLSS / AMD FSR
+DLSS (Deep Learning Super Sampling) is an AI technology by NVIDIA that boosts performance while keeping visuals sharp.  
+
+- In RDR2, using DLSS is **not very effective**.  
+
+**DLSS Modes:**
+
+| Mode | Effect | FPS Impact |
+|------|-------|------------|
+| Quality | Closest to native resolution | Low FPS gain |
+| Balanced | Mix of performance and quality | Medium FPS gain |
+| Performance | Lower internal resolution | High FPS gain |
+| Ultra Performance | Very low resolution (e.g., 4K → 1080p) | Huge FPS gain, some blur |
+
+---
+
+### TAA (Temporal Anti-Aliasing)
+TAA smooths jagged edges by blending information from multiple frames over time.  
+
+- Reduces diagonal lines, thin edges, and stair-step effects.  
+- FPS impact is minimal.  
+📌 Recommendation: **High** for smooth visuals.
+
+---
+
+### FXAA (Fast Approximate Anti-Aliasing)
+FXAA is a simple, light method to smooth jagged edges.  
+
+- Minimal FPS impact.  
+📌 Recommendation: **On** for sharper textures.
+
+---
+
+### MSAA (Multisample Anti-Aliasing)
+MSAA smooths edges by sampling multiple points per pixel.  
+
+- Very demanding on performance.  
+📌 Recommendation: **Avoid** for RDR2.
+
+---
+
+### Near Volumetric Resolution
+Controls the detail of volumetric effects (fog, smoke, god rays) near the camera.  
+
+- Very demanding.  
+📌 Recommendation: Use **High** for visuals if your GPU is strong; otherwise, **Low**.
+
+---
+
+### Far Volumetric Resolution
+Controls volumetric effects far from the camera.  
+
+- Minimal visual impact.  
+📌 Recommendation: **Medium**.
+
+---
+
+### Volumetric Lighting Quality
+Controls the realism and detail of god rays in fog, smoke, and dust.  
+
+- In RDR2, differences are minimal.  
+📌 Recommendation: Any setting is fine.
+
+---
+
+### Particle Lighting Quality
+Controls how particles interact with light in the scene.  
+
+- In RDR2, differences are negligible.
+
+---
+
+### Soft Shadows
+Controls the smoothness and realism of shadow edges.  
+
+- Minimal FPS impact.  
+📌 Recommendation: **High or Ultra**.
+
+---
+
+### Grass Shadows
+Controls shadows of grass and small foliage.  
+
+- Enhances realism and beauty.  
+- Minimal FPS impact.  
+📌 Recommendation: **On**.
+
+---
+
+### Long Shadows
+Controls whether shadows stretch realistically during sunrise or sunset.  
+
+- Enhances beauty of sunsets/sunrises.  
+- Costs about 4 FPS.  
+📌 Recommendation: **On**.
+
+---
+
+### Full Resolution SSAO
+Controls how SSAO is calculated at full screen resolution.  
+
+- In RDR2, visual differences are minimal.  
+📌 Recommendation: Any setting is fine.
 
